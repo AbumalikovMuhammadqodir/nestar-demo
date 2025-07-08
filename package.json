@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "3.5.10",
     "@emotion/cache": "latest",
     "@emotion/react": "latest",
     "@emotion/server": "latest",
@@ -16,16 +17,19 @@
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
     "@mui/material-nextjs": "latest",
-    "next": "13",
-    "react": "^18",
-    "react-dom": "^18",
+    "graphql": "15.5.0",
+    "next": "^15.3.5",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "sass": "^1.49.9",
-    "sass-loader": "^12.6.0"
+    "sass-loader": "^12.6.0",
+    "swiper": "8.3.1"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/swiper": "^6.0.0",
     "typescript": "^5"
   }
 }
